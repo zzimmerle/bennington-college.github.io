@@ -11,7 +11,7 @@ layout: home
 - [James Mulligan](http://973-eht-namuh-973.com/)
 - [Christiane Swenson](https://xianeswenson.github.io)
 - [Iliyana Yotova](https://iyotova95.github.io)
-- [Eli Zeltzer](https://ejzeltzer.github.io)
+- [Eli Zeltzer](http://worldbirthsanddeaths.com/)
 - [Zach Zimmerle](https://zzimmerle.github.io/zz)
 <!-- Lopez Guevara, Javier -->
 <!-- Monteleone, Anna -->
