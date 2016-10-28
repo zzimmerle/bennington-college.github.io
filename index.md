@@ -5,7 +5,7 @@ layout: home
 ### Student Websites
 - [Hoanh An](https://hoanhan101.github.io)
 - [Aiden Barger](https://aidenbarger.github.io)
-- [Matt Jones](https://matthewbennington.github.io)
+- [Matt Jones](http://www.planecrashinfo.com/lastwords.htm)
 - [Nush Laywhyee](https://nushlaywhyee.github.io)
 - [Syd Miller](https://sydmiller.github.io)
 - [James Mulligan](http://973-eht-namuh-973.com/)
