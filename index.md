@@ -8,7 +8,7 @@ layout: home
 - [Matt Jones](https://matthewbennington.github.io)
 - [Nush Laywhyee](https://nushlaywhyee.github.io)
 - [Syd Miller](https://sydmiller.github.io)
-- [James Mulligan](https://jpmulligan49.github.io)
+- [James Mulligan](http://973-eht-namuh-973.com/)
 - [Christiane Swenson](https://xianeswenson.github.io)
 - [Iliyana Yotova](https://iyotova95.github.io)
 - [Eli Zeltzer](https://ejzeltzer.github.io)
