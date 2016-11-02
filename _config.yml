@@ -3,7 +3,7 @@ author: Bennington People
 email: jacksonmoore@bennington.edu
 description: > # this means to ignore newlines until "baseurl:"
   Site for Intro to Javascript, Bennington College, Fall 2016
-baseurl: "/minima"
+# baseurl: "/minima"
 
 # Build settings
 markdown: kramdown
