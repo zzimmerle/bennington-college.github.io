@@ -1,9 +1,16 @@
 $( document ).ready(function() {
 
 	$('h3').click(
-	  function() {
-	    $('h3').css('background-color', 'yellow');
-	  }
+	 if ('background-color' == 'yellow') {
+	 	function() {
+	  	  $('h3').css('background-color', 'white');
+	  	}
+	 } 	
+	 if ('background-color' == 'white') {
+	 	function() {
+	  	  $('h3').css('background-color', 'yellow');
+	  	}
+	 } 	
 	);
 });
 
