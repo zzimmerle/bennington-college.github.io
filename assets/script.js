@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$('h3').click(
-	 $('h3').toggleClass( "highlighted" );
+	 $( this ).toggleClass( "highlighted" );
 	);
 });
 
