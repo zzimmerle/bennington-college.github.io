@@ -1,16 +1,7 @@
 $( document ).ready(function() {
 
 	$('h3').click(
-	 if ('background-color' == 'yellow') {
-	 	function() {
-	  	  $('h3').css('background-color', 'white');
-	  	}
-	 } 	
-	 if ('background-color' == 'white') {
-	 	function() {
-	  	  $('h3').css('background-color', 'yellow');
-	  	}
-	 } 	
+	 $('h3').toggleClass('highlighted')
 	);
 });
 

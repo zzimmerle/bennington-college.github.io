@@ -1,2 +1,5 @@
 body {
 }
+.highlighted {
+	background-color: 'yellow';
+}
