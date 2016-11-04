@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	$('h3').click(
+	$('h3').mouseenter(
 	 $( this ).toggleClass( "highlighted" );
 	);
 });
