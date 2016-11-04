@@ -2,10 +2,20 @@ $( document ).ready(function() {
 
 	$('h3').click(
 	  function() {
-	    $('h3').css('font-size', '200px');
+	    $('h3').css('background-color', 'yellow');
 	  }
 	);
-
+	$('a').click(
+	  function() {
+	    $('h3').css('display', 'none');
+	  }
+	);
+	$('body').mouseenter(
+	  function() {
+	    $('body').css('position', 'relative');
+	    $('body').css('left', '30px');
+	  }
+	);
 });
 
 
