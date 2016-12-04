@@ -326,7 +326,7 @@ var zzcryptography = function(){
 			ciphertextArray.push(ciphertextLetter);
 		};
 	
-		var ciphertext = ciphertextArray.join();
+		var ciphertext = ciphertextArray.join('');
 	
 		return ciphertext;
 	};
