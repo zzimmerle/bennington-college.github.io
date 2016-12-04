@@ -49,7 +49,7 @@
 	
 			.fred 						
 				//returns "FRED LIVES"
-				//does nothing else
+				//does nothing else 
 */
 
 
@@ -81,7 +81,7 @@ var zzcryptography = function(){
 		'x', 
 		'y', 
 		'z'
-	];
+		];
 	this.englishLetterFrequency = {
 		a:8.167, 
 		b:1.492, 
@@ -109,7 +109,7 @@ var zzcryptography = function(){
 		x:0.15, 
 		y:1.974, 
 		z:0.074
-	};
+		};
 	this.letterFrequency = {
 		a:8.167, 
 		b:1.492, 
@@ -137,7 +137,7 @@ var zzcryptography = function(){
 		x:0.15, 
 		y:1.974, 
 		z:0.074
-	};
+		};
 	this.converter = function( text ){
 		var originalText = text;
 	
@@ -158,10 +158,10 @@ var zzcryptography = function(){
 	
 	  	var convertedText = originalText.split("");
 	  	return convertedText;
-	};
+		};
 	this.frequencyCount = function( text ){
 		var originalText = text;
-		var textArray[] = zzcryptography.converter(text);
+		var textArray = zzcryptography().converter(text);
 		var letterCount = {
 			a:0,
 			b:0,
@@ -189,7 +189,7 @@ var zzcryptography = function(){
 			x:0,
 			y:0,
 			z:0
-		};
+			};
 		var totalLetterCount;
 	
 		for (var i = textArray.length; i >= 0; i--){
@@ -272,48 +272,55 @@ var zzcryptography = function(){
 				case 'z':
 					letterCount.z += 1;
 					break;};
-		};
-	
-		totalLetterCount = (letterCount.a + letterCount.b + letterCount.c + letterCount.d + letterCount.e + letterCount.f + letterCount.g + letterCount.h + letterCount.i + letterCount.j + letterCount.k + letterCount.l + letterCount.m + letterCount.n + letterCount.o + letterCount.p + letterCount.q + letterCount.r + letterCount.s + letterCount.t + letterCount.u + letterCount.v + letterCount.w + letterCount.x + letterCount.y + letterCount.z);
+			};
+		for (var i = 0; i < 26; i++) {
+			totalLetterCount += letterCount[englishAlphabet[i]];
+			};
+
 		var letterCountConvert = function(a){
 			return ((a * 100)/totalLetterCount);
+			};
+	
+		// zzcryptography().letterFrequency[member] = letterCountConvert(letterCount[member]);
+		
+		/*
+			zzcryptography().letterFrequency.a = letterCountConvert(letterCount.a);
+			zzcryptography().letterFrequency.b = letterCountConvert(letterCount.b);
+			zzcryptography().letterFrequency.c = letterCountConvert(letterCount.c);
+			zzcryptography().letterFrequency.d = letterCountConvert(letterCount.d);
+			zzcryptography().letterFrequency.e = letterCountConvert(letterCount.e);
+			zzcryptography().letterFrequency.f = letterCountConvert(letterCount.f);
+			zzcryptography().letterFrequency.g = letterCountConvert(letterCount.g);
+			zzcryptography().letterFrequency.h = letterCountConvert(letterCount.h);
+			zzcryptography().letterFrequency.i = letterCountConvert(letterCount.i);
+			zzcryptography().letterFrequency.j = letterCountConvert(letterCount.j);
+			zzcryptography().letterFrequency.k = letterCountConvert(letterCount.k);
+			zzcryptography().letterFrequency.l = letterCountConvert(letterCount.l);
+			zzcryptography().letterFrequency.m = letterCountConvert(letterCount.m);
+			zzcryptography().letterFrequency.n = letterCountConvert(letterCount.n);
+			zzcryptography().letterFrequency.o = letterCountConvert(letterCount.o);
+			zzcryptography().letterFrequency.p = letterCountConvert(letterCount.p);
+			zzcryptography().letterFrequency.q = letterCountConvert(letterCount.q);
+			zzcryptography().letterFrequency.r = letterCountConvert(letterCount.r);
+			zzcryptography().letterFrequency.s = letterCountConvert(letterCount.s);
+			zzcryptography().letterFrequency.t = letterCountConvert(letterCount.t);
+			zzcryptography().letterFrequency.u = letterCountConvert(letterCount.u);
+			zzcryptography().letterFrequency.v = letterCountConvert(letterCount.v);
+			zzcryptography().letterFrequency.w = letterCountConvert(letterCount.w);
+			zzcryptography().letterFrequency.x = letterCountConvert(letterCount.x);
+			zzcryptography().letterFrequency.y = letterCountConvert(letterCount.y);
+			zzcryptography().letterFrequency.z = letterCountConvert(letterCount.z);*/
+		
+		for (var i = 0; i < 26; i++) {
+			zzcryptography().letterFrequency[englishAlphabet[i]] = letterCountConvert(letterCount[englishAlphabet[i]]);
+			}
 		};
-	
-		// zzcryptography.letterFrequency[member] = letterCountConvert(letterCount[member]);
-	
-		zzcryptography.letterFrequency.a = letterCountConvert(letterCount.a);
-		zzcryptography.letterFrequency.b = letterCountConvert(letterCount.b);
-		zzcryptography.letterFrequency.c = letterCountConvert(letterCount.c);
-		zzcryptography.letterFrequency.d = letterCountConvert(letterCount.d);
-		zzcryptography.letterFrequency.e = letterCountConvert(letterCount.e);
-		zzcryptography.letterFrequency.f = letterCountConvert(letterCount.f);
-		zzcryptography.letterFrequency.g = letterCountConvert(letterCount.g);
-		zzcryptography.letterFrequency.h = letterCountConvert(letterCount.h);
-		zzcryptography.letterFrequency.i = letterCountConvert(letterCount.i);
-		zzcryptography.letterFrequency.j = letterCountConvert(letterCount.j);
-		zzcryptography.letterFrequency.k = letterCountConvert(letterCount.k);
-		zzcryptography.letterFrequency.l = letterCountConvert(letterCount.l);
-		zzcryptography.letterFrequency.m = letterCountConvert(letterCount.m);
-		zzcryptography.letterFrequency.n = letterCountConvert(letterCount.n);
-		zzcryptography.letterFrequency.o = letterCountConvert(letterCount.o);
-		zzcryptography.letterFrequency.p = letterCountConvert(letterCount.p);
-		zzcryptography.letterFrequency.q = letterCountConvert(letterCount.q);
-		zzcryptography.letterFrequency.r = letterCountConvert(letterCount.r);
-		zzcryptography.letterFrequency.s = letterCountConvert(letterCount.s);
-		zzcryptography.letterFrequency.t = letterCountConvert(letterCount.t);
-		zzcryptography.letterFrequency.u = letterCountConvert(letterCount.u);
-		zzcryptography.letterFrequency.v = letterCountConvert(letterCount.v);
-		zzcryptography.letterFrequency.w = letterCountConvert(letterCount.w);
-		zzcryptography.letterFrequency.x = letterCountConvert(letterCount.x);
-		zzcryptography.letterFrequency.y = letterCountConvert(letterCount.y);
-		zzcryptography.letterFrequency.z = letterCountConvert(letterCount.z);
-	};
 	this.viginere = function(a,b){
 		var originalText = a;
-		var plaintext = zzcryptography.converter(a);
+		var plaintext = zzcryptography().converter(a);
 		var originalKey = b;
-		var keytext = zzcryptography.converter(b);
-		var alphabet = zzcryptography.englishAlphabet;
+		var keytext = zzcryptography().converter(b);
+		var alphabet = zzcryptography().englishAlphabet;
 		var ciphertextArray = [];
 	
 		for (var i = 0; i < plaintext.length; i++) {
@@ -321,20 +328,19 @@ var zzcryptography = function(){
 			var plaintextLetterIndex = alphabet.indexof(plaintext[i]); //what letter are we converting from (more specifically: what index in the alphabet array represents it)
 			var keyLetterIndex = alphabet.indexof(keytext[keyIndex]); //what letter is the key right now (more specifically: what index in the alphabet array represents it)
 			var targetIndex = (plaintextLetterIndex + keyLetterIndex) % alphabet.length;
-	
 			var ciphertextLetter = alphabet[targetIndex];
 			ciphertextArray.push(ciphertextLetter);
-		};
+			};
 	
 		var ciphertext = ciphertextArray.join('');
 	
 		return ciphertext;
-	};
+		};
 	this.fred = function(){
 		var fredStatus;
 		if (1 == 1) {
 			fredStatus = 'FRED LIVES';
-		}
+			};
 		return fredStatus;
-	};
-};
+		};
+	}
