@@ -18,7 +18,7 @@ layout: home
 - [Christiane Swenson](https://xianeswenson.github.io)
 - [Iliyana Yotova](https://iyotova95.github.io)
 - [Eli Zeltzer](http://worldbirthsanddeaths.com/)
-- [Zach Zimmerle](https://zzimmerle.github.io/zz)
+- [Zach Zimmerle](https://zzimmerle.github.io)
 <!-- Lopez Guevara, Javier -->
 <!-- Monteleone, Anna -->
 - [Jackson Moore](https://www.reddit.com/r/f04cb41f154db2f05a4a/)
